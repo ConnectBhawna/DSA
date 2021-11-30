@@ -9,9 +9,19 @@ class Array{
                  }
                  return nums;
              }
+             void print(vector<int>& s){
+                 for (auto i = s.begin(); i != s.end(); ++i)
+                 cout << *i << " ";   
+             }
 };
 int main(){
         Array a;
+        vector<int> v,s;
+        v.push_back(5);
+        v.push_back(1);
+        v.push_back(3);
+        s = a.runningSum(v);
+        a.print(s);
         
-
+   return 0;
 }
