@@ -1,4 +1,3 @@
-//Please have a look at the code 
 class Solution {
 public:
     bool search(vector<int>& nums, int target) {
