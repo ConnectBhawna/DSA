@@ -38,10 +38,11 @@ int main(){
     cout<<"String after  reversing  -> "<<str<<endl;
 
     rotate(v.begin(),v.begin()+2,v.end());
-    cout<<"Vector after reversing  -> "<<endl;
+    cout<<"Vector after reversing  -> ";
     for(int i:v){
         cout<<i<<" ";
     }
+    cout<<"\nElements after sorting -> ";
     //This function is based on intro sort i.e, mixing of three 
     //sorting techniques like merge,quick and insertion
     sort(v.begin(),v.end());
