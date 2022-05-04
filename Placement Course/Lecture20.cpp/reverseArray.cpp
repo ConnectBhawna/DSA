@@ -13,6 +13,7 @@ vector<int> reverseArray(vector<int> &arr, int m){
     return arr;
 }
 
+//If it is given from the starting index to end index like that
 vector<int> reverse(vector<int> v){
     int s = 0,e = v.size()- 1;
     while(s<=e){
@@ -41,6 +42,20 @@ int main(){
    // vector<int> ans = reverse(v);
     cout<<"Vector With reverse    -> ";
     print(ans);
+
+    vector<int> v1;
+    v1.push_back(16);
+    v1.push_back(71);
+    v1.push_back(2);
+    v1.push_back(14);
+    v1.push_back(10);
+
+    cout<<"Vector Without reverse -> ";
+    print(v1);
+    vector<int> ans1 = reverseArray(v1,2);
+   // vector<int> ans = reverse(v);
+    cout<<"Vector With reverse    -> ";
+    print(ans1);
 
 
     return 0;
