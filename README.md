@@ -1,0 +1,3 @@
+# DSA
+here i solve data structure and algorithm problem
+Will update this readme soon......
